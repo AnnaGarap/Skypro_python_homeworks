@@ -14,11 +14,6 @@ catalog.append(phone4)
 catalog.append(phone5)
 
 for phone in catalog:
-<<<<<<< HEAD
     print(
         f"{phone.phone_brand} - {phone.phone_model}. "
         f"{phone.subscriber_number}")
-=======
-    print(f"""{phone.phone_brand} - {phone.phone_model}. "
-    f"{phone.subscriber_number}""")
->>>>>>> e151690edcff970734ef3693ec1b553a2df4f4aa
