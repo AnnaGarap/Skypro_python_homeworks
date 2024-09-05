@@ -12,7 +12,7 @@ try:
     blue_button = driver.find_element(By.CSS_SELECTOR, '.btn.btn-primary')
     blue_button.click()
     sleep(2)
-    driver.switch_to.alert.accept
+    driver.switch_to.alert.accept()
 except Exception as ex:
     print(ex)
 finally:
